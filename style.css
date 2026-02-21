@@ -1,0 +1,152 @@
+nav{
+    width: 100%;
+    text-align: right;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(71, 119, 216);
+    border-radius: 10px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: #0b2dc5;
+}
+
+.hero{
+    text-align:center;
+    padding:80px;
+    background:#2564ebc2;
+    color:white;
+    border-radius: 20px;
+}
+
+.btn{
+    background:white;
+    color:#2563eb;
+    padding:10px 20px;
+    text-decoration:none;
+}
+
+h1{
+    padding: 20px;
+    background-color: rgba(102, 111, 196, 0.521);
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+body{
+     /*background-image: url(bg-shoe.jpg);*/
+     background-size: cover;
+    background-attachment: fixed;
+/* color: rgb(236, 234, 230); */
+background-repeat: no-repeat;
+background-color: bisque;
+}
+
+.gallery{
+        margin: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(138, 188, 201);
+        padding: 30px;
+        color: rgb(0, 0, 0);
+        border-radius: 30px;
+}
+.row{
+        display: flex;
+        margin: 20px;
+        padding: 20px;
+}
+
+.col{
+        flex: 1;
+        margin: auto;
+        padding: 10px;
+}
+.col img{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+        background: white;
+}
+
+.col:hover img{
+    transform: scale(1.1);
+}
+
+.para{
+    font-size: x-large;
+    font-family: cursive;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer{
+    background-color: lightgray;
+}
+
+.map-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+
+.footer-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact{
+    text-align: center;
+    padding: 40px;
+}
+
+input,textarea,button{
+    display:block;
+    margin:10px auto;
+    padding:10px;
+    width:250px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+}
